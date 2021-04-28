@@ -1,4 +1,0 @@
-pear
-orange
-banana
-apple
