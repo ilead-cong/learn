@@ -1,0 +1,5 @@
+2021-08-25 11:18:35,776 - advanced_2.py[line:33] - DEBUG: debug
+2021-08-25 11:18:35,782 - advanced_2.py[line:34] - INFO: info
+2021-08-25 11:18:35,782 - advanced_2.py[line:35] - WARNING: 警告
+2021-08-25 11:18:35,782 - advanced_2.py[line:36] - ERROR: 报错
+2021-08-25 11:18:35,783 - advanced_2.py[line:37] - CRITICAL: 严重
