@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        iframe {
+            border: none;
+            width: 100%; /* 使 iframe 充满整个容器 */
+            height: 500px; /* 设置 iframe 高度 */
+        }
+    </style>
+</head>
+<body>
+    <h1>Sales Report</h1>
+
+    <h2>Table Data</h2>
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Amount</th>
+        </tr>
+        
+        <tr>
+            <td>Product A</td>
+            <td>1000</td>
+        </tr>
+        
+        <tr>
+            <td>Product B</td>
+            <td>1500</td>
+        </tr>
+        
+        <tr>
+            <td>Product C</td>
+            <td>2000</td>
+        </tr>
+        
+    </table>
+
+    <h2>Chart</h2>
+    <!-- 使用 <iframe> 标签插入 HTML 图表 -->
+    <iframe src="stack_bar_percent_iframe.html"></iframe>
+
+</body>
+</html>
